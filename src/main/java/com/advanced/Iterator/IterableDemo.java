@@ -1,4 +1,4 @@
-package com.example.Iterator;
+package com.advanced.Iterator;
 
 import java.util.*;
 
