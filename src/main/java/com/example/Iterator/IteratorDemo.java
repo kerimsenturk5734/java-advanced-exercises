@@ -5,7 +5,7 @@ import java.util.*;
 public class IteratorDemo {
     public static void main(String[] args) {
         /**
-         * Iterator interface'i üzerinde gezinebileceğimiz
+         * Iterator interface'i, üzerinde gezinebileceğimiz
          * yani Iterable sınıflar üzerinde kullanılır.
          */
 
@@ -33,9 +33,8 @@ public class IteratorDemo {
          */
 
         /**
-         * next() methodu geriye iterator'un üzerinde bulunduğu değeri
-         * döndürür ve kendi içerisindeki index değerini bir artırararak
-         * bir sonraki elemanın üzerine geçer.
+         * next() methodu geriye mevcut elemanı döndürür ve iterator'u
+         * index'i bir artırarak mevcut bulunduğu konumdan bir sonraki konuma getirir.
          */
         while (entrySetIterator.hasNext()){
             System.out.println("Entry set value : " + entrySetIterator.next());
